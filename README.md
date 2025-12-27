@@ -5,6 +5,8 @@ This project provides a comprehensive data-driven analysis of how the 3-point sh
 
 To extract meaningful insights, **I personally managed the entire data lifecycle**, including:
 * **Data Cleaning & Wrangling:** I cleaned the raw dataset by handling missing values, removing noise, and ensuring data integrity across 20 seasons of statistics.
+
+  
   **Scripting Logic (Python):**
 ```python # 1. Data Cleaning: Handling missing values and filtering for significance
 df = df.dropna(subset=['3PA'])
@@ -92,6 +94,8 @@ The data reveals a groundbreaking shift in offensive philosophy. Historically, c
 
 **The Analytical Shift**: Post-2012, we observe a sharp acceleration in attempts. 
 This indicates that the league moved from using the 3-pointer as a "last resort" to making it a primary tactical weapon, backed by players who trained specifically to maintain high efficiency at high volumes.
+
+
  **Scripting Logic (Python):**
 ```python # 1. Prepare Data - 1997-2017, Clean Trades
 df_final = df[(df['Year'] >= 1997) & (df['Year'] <= 2017)].copy()
@@ -115,6 +119,8 @@ This analysis highlights the extinction of the traditional, "low-post only" big 
 **PF & Center Evolution**: Power Forwards and Centers showed the most staggering improvements. In 1997, Centers were virtually non-existent on the perimeter (approx. 12% accuracy); by 2017, their accuracy reached nearly 15% with a significant increase in attempts.
 
 **Power Forward Breakthrough**: PFs transitioned from mid-range shooters to elite threats, with their 3P% jumping from 18% in 2007 to nearly 28% in 2017. This shift forced defenses to "stretch" out to the perimeter, fundamentally altering NBA defensive schemes and court spacing.
+
+
  **Scripting Logic (Python):**
 ```python # 1. Re-defining the clean data for positions
 df_pos_acc = df[(df['Year'] >= 1997) & (df['Year'] <= 2017)].copy()
@@ -143,6 +149,8 @@ The ranking of the top 10 shooters is not just a list of names; it is a testamen
 
 **Theory to Reality**: The career consistency of legends like Hubert Davis (43.54%) and Steve Nash (42.78%) provided the "proof of concept" that analytics departments needed.
 Their evolution represents a major milestone in basketball history-shifting the game from an intuition-based sport to a strategy-led, efficiency-optimized competition.
+
+
  **Scripting Logic (Python):**
 ```python   # 4. Set a minimum threshold to ensure they are consistent shooters
   # ( at least 500 attempts over 20 years)
