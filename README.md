@@ -34,20 +34,34 @@ This analysis identifies the top 10 most accurate shooters of the era, led by St
 
 <img width="750" height="400" alt="AVG of 3PT Attemps" src="https://github.com/user-attachments/assets/ee96aa7a-dee3-447c-9673-9c88ea082827" />
 
+*This visualization highlights the relentless expansion of the 3-point shot. Beyond the 1999 lockout anomaly, we see a consistent rise in volume, specifically accelerating after 2012. This trend confirms that the "3-point revolution" is a league-wide strategic transformation, not just a passing phase.*
+
+
+
+
 ### 2. Average 3-Point Accuracy
 *Tracking league-wide shooting percentage, demonstrating improved efficiency over two decades.*
 
  <img width="750" height="400" alt="AVG of 3PT Accuracy" src="https://github.com/user-attachments/assets/d4ff0dcd-d7fd-4bec-83f1-2cd4965940c2" />
+
+
+
 
 ### 3. Volume vs. Accuracy
 *A dual-axis chart showing the explosion in 3PA volume vs. stable league-wide accuracy (1997-2017).*
 
  <img width="750" height="400" alt="3PT Revolution" src="https://github.com/user-attachments/assets/7a749771-4811-4c42-af5e-535583517dbd" />
 
+
+
+
 ### 4. Positional Evolution
 *Comparison of 3PT% by position, highlighting the massive leap in accuracy for Power Forwards and Centers.*
 
 <img width="750" height="400" alt="Position Analysis" src="https://github.com/user-attachments/assets/92ae375f-20fe-4848-ba8c-8ad2676a941d" />
+
+
+
 
 
 ### 5. Career Accuracy Leaders
