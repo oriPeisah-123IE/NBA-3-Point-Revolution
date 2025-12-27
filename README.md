@@ -26,12 +26,12 @@ This analysis identifies the top 10 most accurate shooters of the era, led by St
 
 ## Visualizations
 
-### 1. Average 3P Attempts
+### 1. Average 3-Point Attempts
 *Annual growth of 3-point attempts per player, showing the steady rise in long-range shooting.*
 
 <img width="750" height="400" alt="AVG of 3PT Attemps" src="https://github.com/user-attachments/assets/ee96aa7a-dee3-447c-9673-9c88ea082827" />
 
-### 2. Average 3P Accuracy
+### 2. Average 3-Point Accuracy
 *Tracking league-wide shooting percentage, demonstrating improved efficiency over two decades.*
 
  <img width="750" height="400" alt="AVG of 3PT Accuracy" src="https://github.com/user-attachments/assets/d4ff0dcd-d7fd-4bec-83f1-2cd4965940c2" />
@@ -42,7 +42,7 @@ This analysis identifies the top 10 most accurate shooters of the era, led by St
  <img width="750" height="400" alt="3PT Revolution" src="https://github.com/user-attachments/assets/7a749771-4811-4c42-af5e-535583517dbd" />
 
 ### 4. Positional Evolution
-*Comparison of 3P% by position, highlighting the massive leap in accuracy for Power Forwards and Centers.*
+*Comparison of 3PT% by position, highlighting the massive leap in accuracy for Power Forwards and Centers.*
 
 <img width="750" height="400" alt="Position Analysis" src="https://github.com/user-attachments/assets/92ae375f-20fe-4848-ba8c-8ad2676a941d" />
 
