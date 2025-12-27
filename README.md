@@ -49,7 +49,7 @@ This analysis identifies the top 10 most accurate shooters of the era, led by St
 
 ### 5. Career Accuracy Leaders
 *Top 10 most accurate 3-point shooters (min. 500 attempts) during the 1997-2017 era.*
-![The Influencers] <img width="750" height="400" alt="The Influencers" src="https://github.com/user-attachments/assets/2f34c64c-498e-4675-b04f-ae63990563fd" />
+ <img width="750" height="400" alt="The Influencers" src="https://github.com/user-attachments/assets/2f34c64c-498e-4675-b04f-ae63990563fd" />
 
 
 ## Tools Used
