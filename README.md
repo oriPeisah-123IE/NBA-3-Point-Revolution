@@ -19,7 +19,7 @@ The primary goal was to investigate the correlation between the exponential grow
   
 * **The "Stretch-Big" Evolution:** Positional analysis revealed that Power Forwards and Centers showed the most significant improvement in accuracy, fundamentally changing their role on the court.
 
-* **Elite Performers & Legacy**
+* **Elite Performers & Legacy:**
 This analysis identifies the top 10 most accurate shooters of the era, led by Stephen Curry with a career-defining 44% accuracy.
  **It is evident that these players fundamentally changed the game's approach to 3-pointers.
    their evolution represents a major milestone in the history of basketball theory and strategic play.**
@@ -49,7 +49,7 @@ This analysis identifies the top 10 most accurate shooters of the era, led by St
 
 ### 5. Career Accuracy Leaders
 *Top 10 most accurate 3-point shooters (min. 500 attempts) during the 1997-2017 era.*
- <img width="750" height="400" alt="The Influencers" src="https://github.com/user-attachments/assets/2f34c64c-498e-4675-b04f-ae63990563fd" />
+ <img width="750" height="450" alt="The Influencers" src="https://github.com/user-attachments/assets/2f34c64c-498e-4675-b04f-ae63990563fd" />
 
 
 ## Tools Used
