@@ -71,11 +71,11 @@ This indicates a fundamental evolution in player training and offensive decision
 
 <img width="750" height="400" alt="Position Analysis" src="https://github.com/user-attachments/assets/92ae375f-20fe-4848-ba8c-8ad2676a941d" />
 
-**This chart visualizes the true "revolution." 
+**This chart visualizes the true "revolution".
 While Guards (PG/SG) have always been efficient shooters, the most significant leap occurred among Big Men.
 Between 2007 and 2017, Power Forwards and Centers nearly doubled their effectiveness from deep, reflecting the modern NBA strategy of floor spacing and the rise of the "Stretch-Big".**
 
-הא
+
 
 
 
