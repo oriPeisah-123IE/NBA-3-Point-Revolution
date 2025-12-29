@@ -92,6 +92,38 @@ By focusing on this 20-year period and including only players with over 500 atte
 Their consistency over 20 years forced teams to change their defense and turned the NBA into a game driven by data and efficiency.**
 
 
+
+### 6. Identifying Player Styles using Machine Learning
+
+In this part of the project, I wanted to see if the data could tell me which "type" of shooter each player is, regardless of their official position. To do this, I used a **Machine Learning** algorithm called K-Means Clustering.
+
+First, I used a tool called the "Elbow Method" to figure out the best way to group the players, and it showed that 3 groups was the perfect number. Then, I let the model analyze two main things: how many shots a player took (Volume) and how accurate they were (Efficiency).
+
+The results were really interesting, the model automatically sorted everyone into three clear "Archetypes": Elite Superstars (high volume and high accuracy like Stephen Curry), High-Accuracy Snipers (very accurate but fewer shots), and Steady Contributors (the reliable role players). This shows how machine learning can find patterns in basketball that we might miss just by looking at basic averages. 
+
+
+<img width="750" height="450" alt="K-FIND" src="https://github.com/user-attachments/assets/db3610f8-ebee-4c11-9a47-b73b682f683e" />
+
+
+**The "Elbow" Point**: Looking at the generated Elbow Curve, the rate of decrease in WCSS drops significantly after K=3. This point represents the "elbow," where adding more clusters no longer provides substantial improvement in explaining the data.
+
+
+
+
+<img width="750" height="500" alt="K-MEANS" src="https://github.com/user-attachments/assets/a4ec86f3-c831-477f-af20-57de9f545e2f" />
+
+### The Archetypes Identified:
+
+**Elite Superstars (Green):** These are the league's primary offensive engines. This cluster includes legends like Ray Allen and Stephen Curry, who maintain high accuracy despite extreme volume (4,000+ attempts).
+
+**High-Accuracy Snipers (Orange):** Players who specialize in precision. They occupy the top-left of the chart, maintaining elite percentages (often above 38%) but with lower career volume compared to the Superstars.
+
+**Steady Contributors (Blue):** This group represents the foundation of the league's spacing.
+They provide reliable perimeter shooting at a moderate volume, typically ranging between 30% and 35% accuracy.
+
+
+
+
  
 ## Key Insights
 ### 1. The Volume-Efficiency Paradox (Volume vs. Accuracy)
@@ -167,7 +199,13 @@ Their evolution represents a major milestone in basketball history-shifting the 
   #  Sort by percentage and take the top 10
   top_10_shooters = top_shooters.sort_values(by='3P_Pct', ascending=False).head(10)
  ``` 
+### 4. The "Unstoppable" Tier (Volume + Efficiency):
+Usually, the more a player shoots, the less accurate he becomes because of fatigue and better defense. Our model found a small group of "Elite Superstars" like Stephen Curry and Ray Allen who break this rule, 
+they shoot more than anyone else but still keep an incredibly high percentage.
 
+***Specialists vs. Stars:*** The model showed a clear gap between "Snipers" and "Stars".
+The High-Accuracy Snipers have the highest percentages, but they only shoot when they are open. 
+The Superstars, however, take much harder shots and carry the team's offense, which is why the model put them in their own unique category.
 
 
 ## Tools Used
