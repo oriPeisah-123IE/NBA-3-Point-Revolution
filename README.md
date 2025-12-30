@@ -101,8 +101,8 @@ First, I used a tool called the "Elbow Method" to figure out the best way to gro
 
 The results were really interesting, the model automatically sorted everyone into three clear "Archetypes": Elite Superstars (high volume and high accuracy like Stephen Curry), High-Accuracy Snipers (very accurate but fewer shots), and Steady Contributors (the reliable role players). This shows how machine learning can find patterns in basketball that we might miss just by looking at basic averages. 
 
-<img width="750" height="450" alt="K_MEANS" src="https://github.com/user-attachments/assets/fcaff689-7714-4a26-813d-6f22193e5e74" />
 
+<img width="750" height="450" alt="K-FIND" src="https://github.com/user-attachments/assets/be7ecf31-92b6-48b7-9a5b-963136fbaecc" />
 
 
 
@@ -111,7 +111,7 @@ The results were really interesting, the model automatically sorted everyone int
 
 
 
-<img width="750" height="500" alt="K-MEANS" src="https://github.com/user-attachments/assets/a4ec86f3-c831-477f-af20-57de9f545e2f" />
+<img width="750" height="450" alt="K_MEANS" src="https://github.com/user-attachments/assets/fcaff689-7714-4a26-813d-6f22193e5e74" />
 
 ### The Archetypes Identified:
 
