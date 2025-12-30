@@ -207,9 +207,49 @@ they shoot more than anyone else but still keep an incredibly high percentage.
 The High-Accuracy Snipers have the highest percentages, but they only shoot when they are open. 
 The Superstars, however, take much harder shots and carry the team's offense, which is why the model put them in their own unique category.
 
+## Spatial Analysis: The 3-Point Revolution in Heatmaps
+
+To truly understand how the NBA has changed, I visualized the spatial distribution of every shot taken in the league during two pivotal seasons: 2003-04 and 2022-23.
+
+### Methodology
+* Data Sourcing: Shot coordinates (LOC_X, LOC_Y) were extracted directly from the NBA Stats API using the nba_api library.
+* Visualization: I used a Hexbin plot to aggregate thousands of shots into density-based hexagonal bins.
+* Logarithmic Scaling: A Log Scale (10^0, 10^1, 10^2) was applied to the color intensity. This ensures that the high volume of shots at the rim doesn't "wash out" the activity along the 3-point line, allowing for a clear view of patterns in both high and low-volume areas.
+
+### What are we looking at?
+* Brighter colors (Yellow/White): Represent high-frequency shot zones.
+* Darker colors (Purple/Black): Represent areas where shots are rarely or never taken.
+
+<img width="2103" height="985" alt="HEAT MAPS" src="https://github.com/user-attachments/assets/abd56ef9-2eb9-485a-af12-e4c6f8651c82" />
+
+
+### Key Insights and Findings
+
+#### 1. The Extinction of the Mid-Range
+* 2003-04: The map is filled with orange and red across the mid-range area (between the paint and the arc), showing that the long 2-pointer was a staple of NBA offenses.
+* 2022-23: This same area is now a dead zone (black/dark purple). Modern analytics have led teams to abandon these inefficient shots in favor of higher-value opportunities.
+
+#### 2. The Total Perimeter Takeover (Volume, Range and Role)
+The modern heatmap reveals a massive shift in how the 3-pointer is utilized across the league:
+* Volume: A continuous, bright yellow "Ring of Fire" has formed along the arc, showing that 3-point shooting has transitioned from a specialty to a league-wide requirement.
+* Increased Range: The heat in 2022-23 extends significantly further back from the line, visualizing how players are now comfortably taking shots from several feet behind the arc (The "Curry Effect").
+* Positional Evolution: The increased density at the top of the key and the wings highlights that all five positions, including big men, are now integrated into the perimeter offense.
+
+#### 3. Offensive Polarization
+* The 2022-23 map shows a highly polarized offense: teams either attack the rim (the brightest spot) or shoot the three. 
+* The middle ground has been sacrificed for statistical efficiency, creating a game that is played almost exclusively at the two highest-value zones on the court.
+
+---
+
+### Conclusion
+This project demonstrates that the NBA's 3-point revolution is not just about "shooting more." It is a fundamental shift in the geometry of the game. Through data science and spatial visualization, we can see how the league has optimized its shot selection, effectively stretching the court and rewriting the tactical playbook of professional basketball.
+
+
+
 
 ## Tools Used
 * **Microsoft Excel**
+* **Gemini 3 Pro**
 * **Python** (Pandas, Matplotlib, Seaborn)
 * **Google Colab**
 * **GitHub**
