@@ -334,3 +334,4 @@ The core insight from this Machine Learning model is profound: The 3-point revol
 ## 🚀 Run the Code
 You can view, edit, and run the complete Python analysis directly in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ieHkvKSqAvy6_-5tlm4BO7ZWnxCdd5u-#scrollTo=UrxrQu8GONrg)
+Developed and Maintained by Ori Peisah
