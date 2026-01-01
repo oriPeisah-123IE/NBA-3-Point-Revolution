@@ -245,7 +245,7 @@ The modern heatmap reveals a massive shift in how the 3-pointer is utilized acro
 
 By leveraging this 24-year historical record, the research focuses on three primary objectives:
 
-* **Correlation Analysis:** Quantifying how the relationship between perimeter volume and winning success has shifted across different eras. We analyze whether shooting more 3s still provides the same competitive "edge" today as it did two decades ago.
+* **Correlation Analysis:** Quantifying how the relationship between perimeter volume and winning success has shifted across different eras. I analyzed whether shooting more 3s still provides the same competitive "edge" today as it did two decades ago.
 
 * **Performance Profiling**: Identifying "Elite Outliers". the specific teams that mastered the balance between high-volume shooting and championship-level winning percentages.
 
@@ -256,7 +256,7 @@ This visualization breaks down the history into three eras: the "Early 2000s," t
 
 **What we see**: Each era shows the league's "cloud" of data points moving significantly to the right. In the early 2000s, 15 attempts per game was the norm; today, it is over 35.
 
-<img width="850" height="400" alt="Correlation1" src="https://github.com/user-attachments/assets/0a767e5d-1cd1-46f5-bbfe-0bcadc2592c1" />
+<img width="1000" height="600" alt="Correlation1" src="https://github.com/user-attachments/assets/0a767e5d-1cd1-46f5-bbfe-0bcadc2592c1" />
 <img width="850" height="500" alt="Correlation3" src="https://github.com/user-attachments/assets/f0c2fc98-14c7-442c-9fb9-e4bab71543d7" />
 
 **The Insight**s:
