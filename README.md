@@ -256,7 +256,7 @@ This visualization breaks down the history into three eras: the "Early 2000s," t
 
 **What we see**: Each era shows the league's "cloud" of data points moving significantly to the right. In the early 2000s, 15 attempts per game was the norm; today, it is over 35.
 
-<img width="1000" height="600" alt="Correlation1" src="https://github.com/user-attachments/assets/0a767e5d-1cd1-46f5-bbfe-0bcadc2592c1" />
+<img width="1200" height="900" alt="Correlation1" src="https://github.com/user-attachments/assets/0a767e5d-1cd1-46f5-bbfe-0bcadc2592c1" />
 <img width="850" height="500" alt="Correlation3" src="https://github.com/user-attachments/assets/f0c2fc98-14c7-442c-9fb9-e4bab71543d7" />
 
 **The Insight**s:
@@ -276,7 +276,7 @@ The Cleaning Process:
   This ensured we were looking at championship-caliber teams, not just high-volume shooters.
 
 * Ranking by Precision: From this elite group, I selected the Top 5 teams with the highest 3-Point Percentage (3P%).
-  <img width="800" height="500" alt="Lollipop-NBA" src="https://github.com/user-attachments/assets/31407d02-7e52-4ee7-aeda-89c993f12614" />
+  <img width="1200" height="900" alt="Lollipop-NBA" src="https://github.com/user-attachments/assets/31407d02-7e52-4ee7-aeda-89c993f12614" />
 ### What this Graph Represents:
 The resulting Vertical Lollipop Chart is a visual proof of the 3-point revolution's impact. It shows that at the highest level of professional basketball, there is a direct link between "Elite Precision" and "Elite Winning."
 
@@ -296,7 +296,7 @@ I utilized a Linear Regression model, a fundamental Machine Learning algorithm, 
 
 * **Forecasting**: Once the model learned the historical trajectory, I used it to predict the shooting volume for the next 10 years, up to the 2033-34 season.
 
-  <img width="900" height="700" alt="2034 Forcast" src="https://github.com/user-attachments/assets/61750c02-4d89-46fb-9a9f-52daf4b8f780" />
+  <img width="1200" height="900" alt="2034 Forcast" src="https://github.com/user-attachments/assets/61750c02-4d89-46fb-9a9f-52daf4b8f780" />
 
 
 **What the Graph Show**s:
