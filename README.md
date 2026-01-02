@@ -223,7 +223,7 @@ The data reveals a dramatic leap in efficiency for frontcourt players, with Powe
 ### Conclusion
 **This project shows that the NBA's 3-point revolution is much more than just taking more shots, it is a complete change in how basketball is played. By using K-Means clustering to see how player roles changed, era-based correlations, and Machine Learning to predict the future, the data proves that what used to be a "special weapon" is now a basic requirement to win. My analysis reveals that the game has fundamentally changed, moving toward a future where shooting from deep is the most important part of a team's strategy and the main key to success in the modern NBA.**
 
-
+ 
 
 
 ## Tools & Technologies
@@ -233,9 +233,12 @@ The data reveals a dramatic leap in efficiency for frontcourt players, with Powe
 * **Google Gemini AI**: Used for code optimization, complex problem-solving, and professional data storytelling.
 * **Google Colab**: Cloud-based development environment used for writing and executing the Python code.
 * **Microsoft Excel**: Utilized for initial data exploration, quick filtering, and raw dataset validation.
-## 🚀 Run the Code
-To run the analysis, upload the provided Excel files (NBA Project.xlsx and NBA-Team-Stats.xlsx) to your Google Colab session and execute the notebook cells.
-You can view, edit, and run the complete Python analysis directly Here:
+ ---
+ ## 🚀 Run The Code:       
+ To run the analysis, upload the provided Excel files (NBA Project.xlsx and NBA-Team-Stats.xlsx) to your Google Colab session and execute the notebook cells.
+ 
+* You can view, edit, and run the complete Python analysis directly Here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ieHkvKSqAvy6_-5tlm4BO7ZWnxCdd5u-#scrollTo=UrxrQu8GONrg)    
+
 ---
 Developed and Maintained by **Ori Peisah**
