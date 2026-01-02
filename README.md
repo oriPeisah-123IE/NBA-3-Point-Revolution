@@ -74,7 +74,7 @@ Between 2007 and 2017, Power Forwards and Centers nearly doubled their effective
 **This graph highlights the 10 most accurate 3-point shooters specifically during the 1997-2017 era,led by Stephen Curry with a 43.78% success rate. 
 By focusing on this 20-year period and including only players with over 500 attempts, we ensure these results reflect sustained skill within this timeframe.** 
 
-### 6. Identifying Player Styles using K-Means Algorithem
+### 6. Identifying Player Styles using K-Means Algorithm
 
 In this part of the project, I wanted to see if the data could tell me which "type" of shooter each player is, regardless of their official position. To do this, I used a **Machine Learning** algorithm called K-Means Clustering.
 
@@ -184,7 +184,7 @@ I utilized a Linear Regression model, a fundamental Machine Learning algorithm, 
   <img width="1200" height="900" alt="2034 Forcast" src="https://github.com/user-attachments/assets/61750c02-4d89-46fb-9a9f-52daf4b8f780" />
 
 
-**What the Graph Show**s:
+**What the Graph Shows**:
 The visualization features a Unified Forecast Plot:
 
 * Historical Data (Blue): Represents the verified stats from the past two decades.
