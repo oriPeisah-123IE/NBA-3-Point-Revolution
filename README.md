@@ -213,7 +213,7 @@ The data reveals a dramatic leap in efficiency for frontcourt players, with Powe
 * **The Death of the Mid-Range**: The 3-Points HeatMap shows how the NBA moved away from "middle-distance" shots to focus almost entirely on the most efficient spots: layups at the basket and 3-pointers from the outside.
 
 * **The Efficiency Multiplier**: Analysis of elite teams (Top 5) proves that while everyone shoots more, the real winners are those who maintain accuracy above 39% under high-volume pressure.
-* 
+
 * **Future Growth Prediction**: Based on current trends, the 3-point revolution shows no signs of slowing down, with Predictions suggesting that league-wide volume will continue to climb to record-breaking levels over the next decade.
 
 
