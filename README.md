@@ -123,22 +123,7 @@ The data reveals a groundbreaking shift in offensive philosophy. Historically, c
 This indicates that the league moved from using the 3-pointer as a "last resort" to making it a primary tactical weapon, backed by players who trained specifically to maintain high efficiency at high volumes.
 
 
- **Scripting Logic (Python):**
-```python # 1. Prepare Data - 1997-2017, Clean Trades
-df_final = df[(df['Year'] >= 1997) & (df['Year'] <= 2017)].copy()
-df_final = df_final.drop_duplicates(subset=['Player', 'Year'], keep='first')
 
-# 2. Calculate Pct for ALL players (handling division by zero)
-df_final['3P_Pct'] = df_final['3P'] / df_final['3PA']
-df_final['3P_Pct'] = df_final['3P_Pct'].fillna(0) # Fill 0 for players with no attempts
-
-# 3. Aggregate - MEAN for ALL players
-# This will match your first graph where 2017 is around 140
-combined_all = df_final.groupby('Year').agg({
-    '3PA': 'mean',
-    '3P_Pct': 'mean'
-})
-``` 
 
 ### 2. The Positional Revolution: Rise of the "Stretch-Big"
 This analysis highlights the extinction of the traditional, "low-post only" big man.
@@ -147,27 +132,6 @@ This analysis highlights the extinction of the traditional, "low-post only" big 
 
 **Power Forward Breakthrough**: PFs transitioned from mid-range shooters to elite threats, with their 3P% jumping from 18% in 2007 to nearly 28% in 2017. This shift forced defenses to "stretch" out to the perimeter, fundamentally altering NBA defensive schemes and court spacing.
 
-
- **Scripting Logic (Python):**
-```python # 1. Re-defining the clean data for positions
-df_pos_acc = df[(df['Year'] >= 1997) & (df['Year'] <= 2017)].copy()
-df_pos_acc = df_pos_acc.drop_duplicates(subset=['Player', 'Year'], keep='first')
-
-# 2. Clean positions (
-df_pos_acc['Pos_Clean'] = df_pos_acc['Pos'].str.split('-').str[0]
-
-# 3. Calculate 3P% and handle missing values
-df_pos_acc['3P_Pct'] = df_pos_acc['3P'] / df_pos_acc['3PA']
-df_pos_acc['3P_Pct'] = df_pos_acc['3P_Pct'].fillna(0)
-
-# 4. Filter specifically for 1997, 2007, and 2017 to show the evolution
-years_to_show = [1997, 2007, 2017]
-df_comparison = df_pos_acc[df_pos_acc['Year'].isin(years_to_show)]
-
-# 5. Create the Pivot Table for the Bar Chart
-# Rows: Positions, Columns: Selected Years
-pos_bar_data = df_comparison.pivot_table(index='Pos_Clean', columns='Year', values='3P_Pct', aggfunc='mean')
- ``` 
 
 ### 3. Elite Performers & The Strategic Milestone
 The ranking of the top 10 shooters is not just a list of names; it is a testament to the "Mathematical Optimization" of the game.
@@ -178,15 +142,6 @@ The ranking of the top 10 shooters is not just a list of names; it is a testamen
 Their evolution represents a major milestone in basketball history-shifting the game from an intuition-based sport to a strategy-led, efficiency-optimized competition.
 
 
- **Scripting Logic (Python):**
-```python   # 4. Set a minimum threshold to ensure they are consistent shooters
-  # ( at least 500 attempts over 20 years)
-  min_attempts = 500
-  top_shooters = career_stats[career_stats['3PA'] >= min_attempts].copy()
-
-  #  Sort by percentage and take the top 10
-  top_10_shooters = top_shooters.sort_values(by='3P_Pct', ascending=False).head(10)
- ``` 
 ### 4. The "Unstoppable" Tier (Volume + Efficiency):
 Usually, the more a player shoots, the less accurate he becomes because of fatigue and better defense. Our model found a small group of "Elite Superstars" like Stephen Curry and Ray Allen who break this rule, 
 they shoot more than anyone else but still keep an incredibly high percentage.
