@@ -7,20 +7,7 @@ To extract meaningful insights, **I personally managed the entire data lifecycle
 * **Data Cleaning & Wrangling:** I cleaned the raw dataset by handling missing values, removing noise, and ensuring data integrity across 20 seasons of statistics.
 
   
-  **Scripting Logic (Python):**
-```python # 1. Data Cleaning: Handling missing values and filtering for significance
-df = df.dropna(subset=['3PA'])
-df = df.fillna(0)
 
-# Filtering for players with more than 10 games and 100 minutes to ensure data quality
-df = df[(df['G'] > 10) & (df['MP'] > 100)]
-
-# 2. Initial Cleaning for 1997-2017 and Trade Duplicates
-df_all = df[(df['Year'] >= 1997) & (df['Year'] <= 2017)].copy()
-
-# Removing duplicate entries for players traded during the season (keeping the 'TOT' or first entry)
-df_all = df_all.drop_duplicates(subset=['Player', 'Year'], keep='first')
-```
 * **Advanced Data Processing:** I processed and transformed the data to calculate key performance metrics, such as seasonal averages and positional accuracy trends.
 * **Statistical Analysis:** I analyzed the shift in offensive strategies and player roles, focusing on the relationship between shooting volume and efficiency.
 
