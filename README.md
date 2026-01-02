@@ -74,13 +74,6 @@ Between 2007 and 2017, Power Forwards and Centers nearly doubled their effective
 **This graph highlights the 10 most accurate 3-point shooters specifically during the 1997-2017 era,led by Stephen Curry with a 43.78% success rate. 
 By focusing on this 20-year period and including only players with over 500 attempts, we ensure these results reflect sustained skill within this timeframe.** 
 
-
-
-**These elite shooters, like Steve Nash and Kyle Korver, proved that shooting more 3-pointers is the smartest way to win.
-Their consistency over 20 years forced teams to change their defense and turned the NBA into a game driven by data and efficiency.**
-
-
-
 ### 6. Identifying Player Styles using K-Means Algorithem
 
 In this part of the project, I wanted to see if the data could tell me which "type" of shooter each player is, regardless of their official position. To do this, I used a **Machine Learning** algorithm called K-Means Clustering.
@@ -136,8 +129,6 @@ To truly understand how the NBA has changed, I visualized the spatial distributi
 The modern heatmap reveals a massive shift in how the 3-pointer is utilized across the league:
 * Volume: A continuous, bright yellow "Ring of Fire" has formed along the arc, showing that 3-point shooting has transitioned from a specialty to a league-wide requirement.
 * Increased Range: The heat in 2022-23 extends significantly further back from the line, visualizing how players are now comfortably taking shots from several feet behind the arc (The "Curry Effect").
-* Positional Evolution: The increased density at the top of the key and the wings highlights that all five positions, including big men, are now integrated into the perimeter offense.
-
 ## Final Research- Correlations & Prediction
 #### This Final Research is built upon a comprehensive database of NBA team statistics, covering every franchise's performance from the 2000-01 season through the 2023-24 season. The dataset includes critical metrics such as Win Percentages (W/L%), 3-Point Attempts (3PA), 3-Point Percentage (3P%), and overall field goal distributions.
 
@@ -151,8 +142,6 @@ By leveraging this 24-year historical record, the research focuses on three prim
 
 **The Era Correlation Shift (Three-Panel Scatter Plot):**
 This visualization breaks down the history into three eras: the "Early 2000s," the "Curry Surge," and the "Modern Era."
-
-**What we see**: Each era shows the league's "cloud" of data points moving significantly to the right. In the early 2000s, 15 attempts per game was the norm; today, it is over 35.
 
 <img width="1200" height="900" alt="Correlation1" src="https://github.com/user-attachments/assets/0a767e5d-1cd1-46f5-bbfe-0bcadc2592c1" />
 <img width="850" height="500" alt="Correlation3" src="https://github.com/user-attachments/assets/f0c2fc98-14c7-442c-9fb9-e4bab71543d7" />
